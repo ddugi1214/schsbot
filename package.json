@@ -1,0 +1,27 @@
+{
+  "name": "schsbot",
+  "version": "0.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddugi1214/schsbot.git"
+  },
+  "author": "Bluelemon Developer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddugi1214/schsbot/issues"
+  },
+  "homepage": "https://github.com/ddugi1214/schsbot#readme",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+      //이 위에 스타트 실행부분 수정
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "node-schedule": "~1.2.1",
+    "request": "~2.81.0"
+  }
+}
